@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { Notify } from 'notiflix';
 import {fetchBreeds, fetchCatByBreed} from './js/cat-api';
 import './css/styles.css';
 
