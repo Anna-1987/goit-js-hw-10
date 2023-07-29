@@ -52,13 +52,13 @@ refs.select.addEventListener('change', onSearch);
 };
  
 function onFetchError(error) {
-    selector.classList.remove('is-hidden');
-    loader.classList.replace('loader', 'is-hidden');
+    refs.select.classList.remove('is-hidden');
+    refs.loader.classList.replace('loader', 'is-hidden');
 
     Notify.failure('Oops! Something went wrong! Try reloading the page or select another cat breed!', {
         position: 'center-center',
         timeout: 5000,
-        width: '400px',
-        fontSize: '24px'
+        width: '800px',
+        fontSize: '12px'
     });
 };
